@@ -2229,5 +2229,6 @@
   "NotNestedGreaterGreater;": "⪢̸",
   "ClockwiseContourIntegral;": "∲",
   "DoubleLongLeftRightArrow;": "⟺",
-  "CounterClockwiseContourIntegral;": "∳"
+  "CounterClockwiseContourIntegral;": "∳",
+  "#0009": "\t"
 }

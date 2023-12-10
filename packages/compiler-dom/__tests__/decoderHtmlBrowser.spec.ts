@@ -40,5 +40,8 @@ describe('decodeHtmlBrowser', () => {
         true
       )
     ).toBe('<strong><strong>&</strong></strong>')
+
+    // #9793
+    expect(decodeHtmlBrowser('1&#0009;234')).toBe('1\t234')
   })
 })
